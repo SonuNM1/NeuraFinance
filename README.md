@@ -21,3 +21,11 @@
 
 
 - Prisma Client
+
+- React hook form + zod + @hookform/resolvers
+
+- Lucide React
+
+- Button (type submit vs type button)
+
+- Sonner (npx shadcn@latest add sonner)
