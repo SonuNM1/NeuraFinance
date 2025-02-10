@@ -67,7 +67,7 @@ const AccountCard = ({ account }) => {
             ${parseFloat(balance).toFixed(2)}
           </div>
           <p className="text-xs text-muted-foreground">
-            {type.charAt(0) + type.slice(1).toLowerCase()} Account
+            { type.charAt(0) + type.slice(1).toLowerCase()} Account
           </p>
         </CardContent>
         <CardFooter className="flex justify-between text-sm text-muted-foreground">

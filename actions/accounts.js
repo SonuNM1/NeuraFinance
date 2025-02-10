@@ -86,7 +86,7 @@ export async function getAccountWithTransactions(accountId){
             transactions: {
                 orderBy: {date: "desc"}
             },
-            count: {
+            _count: {
                 select: {transactions: true}
             }
         }

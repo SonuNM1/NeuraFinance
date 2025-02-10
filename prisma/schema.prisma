@@ -13,7 +13,7 @@ model User {
   id            String    @id @default(uuid())
   clerkUserId   String    @unique // clerk user id
   email         String    @unique
-  name          String?
+  name          String
   imageUrl      String?
   transactions  Transaction[]
   accounts      Account[]
